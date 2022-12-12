@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelTesting">
+    <test name="TestWithChrome">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="storeTest.TestScenario"/>
+        </classes>
+    </test>
+</suite>
